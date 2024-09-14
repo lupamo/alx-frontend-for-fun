@@ -1,0 +1,10 @@
+/* Assigning variables */
+$primary-text: #3D3D3D;
+$primary-color: #FF0000;
+
+body {
+	color: $primary-text;
+	.red {
+		color: $primary-color;
+	}
+}
