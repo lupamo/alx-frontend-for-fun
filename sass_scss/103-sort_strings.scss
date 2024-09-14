@@ -1,0 +1,12 @@
+/* sorting lists */
+@import '103-sort_list';
+
+$sorted_list: sort($list_to_sort);
+
+$sorted_list_string: '';
+
+@each $item in $sorted_list {
+  $sorted_list_string: #{$sorted_list_string} #{$item};
+}
+
+@debug $sorted_list_string;
