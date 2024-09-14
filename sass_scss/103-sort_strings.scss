@@ -2,7 +2,6 @@
 @import '103-sort_list';
 
 $sorted_list: sort($list_to_sort);
-
 $sorted_list_string: '';
 
 @each $item in $sorted_list {
